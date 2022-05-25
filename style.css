@@ -98,7 +98,7 @@
   color: #1a2236;
   margin-bottom: 40px;
 }
-/* 
+ 
 .project-img {
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
 }
@@ -120,7 +120,7 @@
   margin-bottom: 30px;
 }
 
-.project-info ul {
+/*.project-info ul {
   background: #1a2236;
   list-style: none;
   display: flex;
