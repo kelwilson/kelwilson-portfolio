@@ -34,7 +34,7 @@
 
 ### Deployment
 
-## Authors
+## Author
 
 👤 **kelwilson**
 
