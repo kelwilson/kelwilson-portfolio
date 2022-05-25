@@ -146,7 +146,7 @@
 }
 
 .project-info-btn button {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -157,7 +157,7 @@
   border: 2px solid #fff;
   background: #1a2236;
 }
-/* 
+
 .fa-arrow-right {
   background: #1a2236;
-} */
+}
