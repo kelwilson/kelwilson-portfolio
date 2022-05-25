@@ -19,7 +19,7 @@
   height: 74px;
 }
 
- .bx-menu {
+.bx-menu {
   font-size: xx-large;
   padding: 20px;
   color: #1a2236;
@@ -63,7 +63,7 @@
 }
 
 .start-btn button {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
