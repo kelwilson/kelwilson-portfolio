@@ -120,7 +120,7 @@
   margin-bottom: 30px;
 }
 
-/*.project-info ul {
+.project-info ul {
   background: #1a2236;
   list-style: none;
   display: flex;
@@ -139,7 +139,7 @@
   padding: 7px 10px;
 }
 
-.project-info-btn {
+/*.project-info-btn {
   display: flex;
   align-items: flex-start;
   background: #1a2236;
