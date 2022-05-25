@@ -55,7 +55,7 @@
   margin-top: 30px;
 }
 
-/*.start-btn {
+.start-btn {
   background: #1a2236;
   padding: 16px;
   margin: 20px;
@@ -73,7 +73,7 @@
   background: #1a2236;
   border: none;
 }
-
+/*
 #main-background-img {
   background-image: url(image/mobile-1.png);
   background-size: contain;
