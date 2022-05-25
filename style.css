@@ -139,7 +139,7 @@
   padding: 7px 10px;
 }
 
-/*.project-info-btn {
+.project-info-btn {
   display: flex;
   align-items: flex-start;
   background: #1a2236;
@@ -157,7 +157,7 @@
   border: 2px solid #fff;
   background: #1a2236;
 }
-
+/* 
 .fa-arrow-right {
   background: #1a2236;
 } */
