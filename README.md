@@ -2,27 +2,25 @@
 
 # Project Name
 
-> Description the project.
-
+> kelwilson-portfolio-project
 
 ## Built With
 
-- Major languages
+- html/css
 - Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- gitbash, github, vs code, figma
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**my first portfolio-project, use figma templates to create a personal portfolio, using html/ css and flex for styling**
 
+### To Access my project locally you can follow these steps
 
-To get a local copy up and running follow these simple example steps.
+1. Enter this url: <https://github.com/kelwilson/kelwilson-portfolio> in your web browser.
+2. Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
+3. Select download Zip option from drop down menu.
+4. Once the download is complete you will be able to access my project locally.
+   Here is my repository link: <https://github.com/kelwilson/kelwilson-portfolio>
 
 ### Prerequisites
 
@@ -36,21 +34,13 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 
+## Author
 
+👤 **kelwilson**
 
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/kelwilson)
+- Twitter: [@twitterhandle](https://twitter.com/BesongMaris)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/kelly-besong-b33074237)
 
 ## 🤝 Contributing
 
