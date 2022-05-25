@@ -31,14 +31,14 @@
 }
 
 .portfolio-header {
-  padding: 16px;
+  padding: 20px;
 }
 
 .portfolio-header h1 {
   font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 60px;
+  font-size: 70px;
   line-height: 100%;
   color: #1a2236;
   margin-top: 40px;
@@ -48,7 +48,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 23px;
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #1a2236;
@@ -57,7 +57,7 @@
 
 .start-btn {
   background: #1a2236;
-  padding: 16px;
+  padding: 20px;
   margin: 20px;
   text-align: center;
 }
@@ -66,7 +66,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 28px;
   line-height: 28px;
   text-align: center;
   color: #fff;
@@ -78,7 +78,86 @@
   background-image: url(image/mobile-1.png);
   background-size: contain;
   width: 100%;
-  height: 500px;
+  height: 300px;
   background-repeat: no-repeat;
   margin-top: 42px;
 }
+
+#projects-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#projects-main h2 {
+  padding: 16px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 100%;
+  color: #1a2236;
+  margin-bottom: 40px;
+}
+/* 
+.project-img {
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-info {
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  padding: 45px 20px;
+}
+
+.project-info h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 80%;
+  color: #fff;
+  background: #1a2236;
+  margin-bottom: 30px;
+}
+
+.project-info ul {
+  background: #1a2236;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 45px;
+}
+
+.project-info ul > li {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 80%;
+  color: #1a2236;
+  background: #98dede;
+  padding: 7px 10px;
+}
+
+.project-info-btn {
+  display: flex;
+  align-items: flex-start;
+  background: #1a2236;
+}
+
+.project-info-btn button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  padding: 30px 20px;
+  border: 2px solid #fff;
+  background: #1a2236;
+}
+
+.fa-arrow-right {
+  background: #1a2236;
+} */
