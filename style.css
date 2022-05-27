@@ -352,7 +352,7 @@
 .yellow {
   background: #febf52;
 }
-/*
+
 .start-btn > button:hover {
   color: #aa29aa;
   background: #98dede;
@@ -402,7 +402,7 @@
   text-align: center;
 }
 
-#get-btn button {
+/*#get-btn button {
   background: #1a2236;
   font-family: "Poppins", sans-serif;
   font-style: normal;
