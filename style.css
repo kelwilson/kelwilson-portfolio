@@ -106,7 +106,7 @@
 .project-img {
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
 }
-/* 
+
 .project-info {
   background: #1a2236;
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
@@ -164,7 +164,7 @@
   cursor: pointer;
 }
 
-.fa-arrow-right {
+/* .fa-arrow-right {
   background: #1a2236;
 }
 
