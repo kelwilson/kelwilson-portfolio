@@ -402,7 +402,7 @@
   text-align: center;
 }
 
-/*#get-btn button {
+#get-btn button {
   background: #1a2236;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -445,4 +445,4 @@
 
 .bx-download:disabled {
   background: #1a2236;
-} */
+} 
