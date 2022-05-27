@@ -314,7 +314,7 @@
   background: #febf52;
 }
 
-/*.about-cards img {
+.about-cards img {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -352,7 +352,7 @@
 .yellow {
   background: #febf52;
 }
-
+/*
 .start-btn > button:hover {
   color: #aa29aa;
   background: #98dede;
