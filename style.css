@@ -164,7 +164,7 @@
   cursor: pointer;
 }
 
- .fa-arrow-right {
+.fa-arrow-right {
   background: #1a2236;
 }
 
@@ -445,4 +445,4 @@
 
 .bx-download:disabled {
   background: #1a2236;
-} 
+}
