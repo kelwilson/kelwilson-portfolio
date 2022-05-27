@@ -12,7 +12,7 @@
 
 ## Getting Started
 
-**my first portfolio-project, use figma templates to create a personal portfolio, using html/ css and flex for styling**
+**my first portfolio-project, use figma templates to create a personal portfolio, using html/ css, flex and grid for styling**
 
 ### To Access my project locally you can follow these steps
 
