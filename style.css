@@ -133,6 +133,7 @@
 
 .project-info ul > li {
    float: left;
+   overflow: hidden;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -151,6 +152,7 @@
 }
 
 .project-info-btn button {
+  margin-top: 40px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
