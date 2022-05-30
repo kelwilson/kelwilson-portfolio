@@ -141,11 +141,13 @@
   color: #1a2236;
   background: #98dede;
   padding: 7px 10px;
+  gap: 20px;
 }
 
 .project-info-btn {
   background: #1a2236;
   cursor: pointer;
+  clear: left;
 }
 
 .project-info-btn button {
