@@ -143,6 +143,21 @@
   padding: 7px 10px;
 }
 
+.get-btn button {
+  background: #1a2236;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6em;
+  line-height: 24px;
+  color: #fff;
+  height: 3em;
+  width: 100%;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+
 .project-info-btn {
   display: flex;
   align-items: flex-start;
@@ -399,37 +414,22 @@
   background: #1a2236;
 }
 
-#get-btn {
+.get-btn {
   text-align: center;
 }
 
-#get-btn button {
-  background: #1a2236;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.6em;
-  line-height: 24px;
-  color: #fff;
-  height: 3em;
-  width: 100%;
-  padding: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-#get-btn > button:hover {
+.get-btn > button:hover {
   color: #aa29aa;
   background: #98dede;
 }
 
-#get-btn > button:active {
+.get-btn > button:active {
   color: #1c528a;
   opacity: 1;
   transform: translateY(4px);
 }
 
-#get-btn > button:disabled {
+.get-btn > button:disabled {
   background: #1a2236;
 }
 
@@ -448,7 +448,7 @@
   background: #1a2236;
 }
 
-#form-section {
+.form-section {
   margin-top: 50px;
 }
 
@@ -486,7 +486,7 @@
   padding: 20px;
 }
 
-#Username {
+.Username {
   width: 100%;
   height: 70px;
   left: 16px;
@@ -503,7 +503,7 @@
   padding-bottom: 33px;
 }
 
-#email {
+.email {
   width: 100%;
   height: 70px;
   left: 16px;
@@ -520,7 +520,7 @@
   padding-bottom: 33px;
 }
 
-#message {
+.message {
   width: 100%;
   height: 160px;
   left: 16px;
@@ -545,7 +545,7 @@
   justify-content: center;
 }
 
-#resume {
+.resume {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
