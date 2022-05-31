@@ -536,7 +536,7 @@
   margin-bottom: 25px;
 }
 
-/*.footer-nav {
+.footer-nav {
   margin-top: 70px;
   background: #1a2236;
   display: flex;
@@ -562,7 +562,7 @@
   background: #1a2236;
 }
 
-.footer-nav ul {
+/*.footer-nav ul {
   background: #1a2236;
   list-style: none;
   display: flex;
