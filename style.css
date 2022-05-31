@@ -478,7 +478,7 @@
   letter-spacing: -0.01em;
   color: #1a2236;
 }
-/*
+
 .portfolio-form {
   display: flex;
   flex-direction: column;
@@ -536,7 +536,7 @@
   margin-bottom: 25px;
 }
 
-.footer-nav {
+/*.footer-nav {
   margin-top: 70px;
   background: #1a2236;
   display: flex;
