@@ -447,7 +447,7 @@
 .bx-download:disabled {
   background: #1a2236;
 }
- 
+
 #form-section {
   margin-top: 50px;
 }
@@ -578,7 +578,7 @@
   font-size: 2.5em;
   color: #fff;
   background: #1a2236;
-  border: none; 
+  border: none;
   text-decoration: none;
 }
 
@@ -596,7 +596,7 @@
   background: #1a2236;
   border: none;
   text-decoration: none;
-} 
+}
 
 .fa-linkedin {
   font-size: 2.5em;
@@ -606,7 +606,6 @@
   text-decoration: none;
 }
 
-
 .fa-medium-m {
   font-size: 2.5em;
   color: #fff;
@@ -615,11 +614,10 @@
   text-decoration: none;
 }
 
-
 .fa-angellist {
   font-size: 2.5em;
   color: #fff;
   background: #1a2236;
   border: none;
   text-decoration: none;
-} 
+}
