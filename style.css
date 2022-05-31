@@ -183,7 +183,7 @@
   background: #1a2236;
 }
 
-#about-section {
+.about-section {
   padding: 20px;
   display: flex;
   flex-direction: column;
