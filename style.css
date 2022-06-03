@@ -746,3 +746,22 @@
     grid-template-columns: 3fr 3fr;
   }
 }
+
+.move-in {
+  animation-name: moveIn;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  position: relative;
+}
+
+@keyframes moveIn {
+  from {
+    top: -1000px;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
