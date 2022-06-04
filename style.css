@@ -644,6 +644,7 @@
     max-width: 1200px;
     margin: 0 auto;
   }
+
   .desktop-nav {
     display: flex;
     align-items: center;
@@ -753,6 +754,7 @@
     transform: rotate(-90deg);
     font-size: 110px;
   }
+
   .hidden {
     display: block;
     transform: translateY(-100%);
@@ -801,6 +803,7 @@
   .projects-main {
     font-size: 110px;
     line-height: 100%;
+
     /* transform: rotate(-90deg); */
   }
 
