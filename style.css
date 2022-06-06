@@ -74,6 +74,7 @@
   color: #fff;
   background: #1a2236;
   height: 3em;
+  width: 100%;
   padding: 16px 80px;
   border: none;
   cursor: pointer;
@@ -632,6 +633,12 @@
   background: #1a2236;
   border: none;
   text-decoration: none;
+}
+
+.hidden,
+.hidden-2,
+#shape {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
