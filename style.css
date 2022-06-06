@@ -108,6 +108,12 @@
   line-height: 100%;
   color: #1a2236;
   margin-bottom: 40px;
+  transition: font-size 3s background-color 3s;
+}
+
+.logo:hover {
+  background-color: #4b1b4b;
+  transform: rotate(45deg);
 }
 
 .project-img {
@@ -1042,5 +1048,16 @@
     flex-direction: column;
     height: 100px;
     justify-content: center;
+  }
+
+  @keyframes moveIn {
+    from {
+      top: -1000px;
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
   }
 }
