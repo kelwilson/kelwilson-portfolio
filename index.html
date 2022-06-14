@@ -24,12 +24,35 @@
     <header>
       <div class="header-wrap">
         <div class="top-background-img"></div>
-        <nav>
-          <i class="bx bx-menu"></i>
-        </nav>
+
+        <div class="menu">
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+        </div>
       </div>
+      <!-- mobile-nav-start -->
+      <div class="mobile-nav">
+        <div class="mobile-nav-img"></div>
+
+        <nav class="menu-items">
+          <ul class="menu-links">
+            <li class="itemm"><a href="#Hello">Hello</a></li>
+            <li class="itemm"><a href="#Projects">Portfolio</a></li>
+            <li class="itemm"><a href="#About">About</a></li>
+            <li class="itemm"><a href="#Contact">Contact</a></li>
+          </ul> 
+         
+        </nav>
+
+        <div class="mobile-img"></div>
+      </div>
+
+      <!-- mobile-nav-end -->
+
       <nav class="desktop-nav">
-        <ul>
+        
+        <ul class="desktop-nav-links">
           <li><a href="#">Hello</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">About</a></li>
@@ -40,7 +63,7 @@
     <main>
       <section class="portfolio-wrap">
         <div class="portfolio-header">
-          <h1>
+          <h1 id="Hello">
             Kelly <br />
             Besong
           </h1>
@@ -67,11 +90,11 @@
       </section>
       <section class="projects-section">
         <div class="projects-main">
-          <h2>Projects</h2>
+          <h2 id="Projects">Projects</h2>
         </div>
 
         <div class="project-img">
-          <img src="image/first.png" alt="" />
+          <img src="image/first.png" alt="person using laptop" />
           <div class="hidden">
             <h3>Project name goes here</h3>
 
@@ -106,7 +129,7 @@
         </div>
 
         <div class="project-img" id="second-container">
-          <img src="image/second.png" alt="" id="second-image" />
+          <img src="image/second.png" alt="Mac book" id="second-image" />
         </div>
 
         <div class="project-info">
@@ -126,7 +149,7 @@
         </div>
 
         <div class="project-img" id="third-container">
-          <img src="image/third.png" alt="" id="third-img" />
+          <img src="image/third.png" alt="laptop and iphone" id="third-img" />
         </div>
 
         <div class="project-info">
@@ -145,7 +168,11 @@
           </div>
         </div>
         <div class="project-img" id="fourth-container">
-          <img src="image/fouth.png" alt="" id="fourth-img" />
+          <img
+            src="image/fouth.png"
+            alt="laptop with yellow background"
+            id="fourth-img"
+          />
         </div>
 
         <div class="project-info">
@@ -165,7 +192,7 @@
         </div>
 
         <div class="project-img" id="fifth-container">
-          <img src="image/fifth.png" alt="" id="fifth-img" />
+          <img src="image/fifth.png" alt="laptop" id="fifth-img" />
         </div>
 
         <div class="project-info">
@@ -185,9 +212,9 @@
         </div>
 
         <div class="project-img" id="sixth-container">
-          <img src="image/desktop2.png" alt="" id="shape" />
+          <img src="image/desktop2.png" alt="null" id="shape" />
           <div id="shape-container">
-            <img src="image/six.png" alt="" id="sixth-img" />
+            <img src="image/six.png" alt="laptop and mobile" id="sixth-img" />
             <div class="hidden-2">
               <h3>Project name goes here</h3>
               <ul>
@@ -223,7 +250,7 @@
       </section>
       <section class="about-section container">
         <div class="about-div">
-          <h1>About</h1>
+          <h1 id="About">About</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -249,7 +276,7 @@
               <li>&bull;HTML</li>
               <li>&bull;CSS</li>
             </ul>
-            <img src="image/language.png" alt="" />
+            <img src="image/language.png" alt="hash icon" />
           </div>
 
           <div class="about-cards-2 salmon">
@@ -262,7 +289,7 @@
               <li>&bull;Capibara</li>
               <li>&bull;Selenium</li>
             </ul>
-            <img src="image/ic_framework.png" alt="" />
+            <img src="image/ic_framework.png" alt="null" />
           </div>
 
           <div class="about-cards-3 yellow">
@@ -275,7 +302,7 @@
               <li>&bull;GitLAb</li>
               <li>&bull;Terminal</li>
             </ul>
-            <img src="image/ic_skills.png" alt="" />
+            <img src="image/ic_skills.png" alt="null" />
           </div>
         </div>
       </section>
@@ -284,7 +311,7 @@
         <div class="top-background-img"></div>
         <div class="form-container1">
           <div class="form-section-div">
-            <h1>Get started</h1>
+            <h1 id="Contact">Get started</h1>
 
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -347,31 +374,32 @@
     </main>
     <footer>
       <nav class="footer-nav container">
-        <a href="" class="resume"
+        <a href="#" class="resume"
           >Get my Resume &nbsp;<i class="fas fa-external-link-alt"></i
         ></a>
 
         <ul>
           <li>
-            <a href=""><i class="fab fa-stack-overflow"></i></a>
+            <a href="#"><i class="fab fa-stack-overflow"></i></a>
           </li>
           <li>
-            <a href=""><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
           </li>
           <li>
-            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
           </li>
           <li>
-            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
           </li>
           <li>
-            <a href=""><i class="fab fa-medium-m"></i></a>
+            <a href="#"><i class="fab fa-medium-m"></i></a>
           </li>
           <li>
-            <a href=""><i class="fab fa-angellist"></i></a>
+            <a href="#"><i class="fab fa-angellist"></i></a>
           </li>
         </ul>
       </nav>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>

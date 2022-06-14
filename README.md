@@ -10,10 +10,6 @@
 - Frameworks
 - gitbash, github, vs code, figma
 
-## Live Demo
-
-- https://kelwilson.github.io/kelwilson-portfolio/
-
 ## Getting Started
 
 **my first portfolio-project, use figma templates to create a personal portfolio, using html/ css, flex and grid for styling**
@@ -26,17 +22,6 @@
 4. Once the download is complete you will be able to access my project locally.
    Here is my repository link: <[https://github.com/kelwilson/kelwilson-portfolio](https://github.com/kelwilson/kelwilson-portfolio)>
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 ## Author
 
@@ -58,7 +43,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- A big thanks to Losalini for hekping out with the javascript implimentations on the project.
 - Inspiration
 - etc
 
