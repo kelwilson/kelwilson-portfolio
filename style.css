@@ -18,10 +18,21 @@
 }
 
 /* .mobile-nav {
+  display: none;
+}
+
+.mobile-nav.active {
+  display: block;
+}
+
+ .mobile-nav {
+  position: fixed;
   margin: 0;
-  padding: 0;
+  padding: -30px;
   width: 100%;
-  height: auto;
+  height: 80vh;
+  z-index: 888;
+  top: 0;
 }
 
 .mobile-nav-img {
@@ -35,7 +46,7 @@
 
 .menu-items {
   margin: 20px auto;
-}
+} */
 
 .menu-links {
   list-style: none;
@@ -57,59 +68,19 @@
 }
 
 .mobile-img {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.mobile-nav-img2 {
-  background-image: url("./image/mobile-nav-2.png");
+  background-image: url("./image/mobile-img2.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 100%;
+  margin-top: 180px;
 }
-
-.mobile-nav-img3 {
- background-image: url("./image/mobile-nav-3.png");
- background-size: contain;
- background-repeat: no-repeat;
- width: 100%;
- height: 100%;
-} */
-
-/*.desktop-nav-links {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.desktop-nav-links li {
-display: flex;
-align-items: center;
-justify-content: space-between;
-margin: 16px 0;
-}
-
-.desktop-nav-links li > a {
-  text-decoration: none;
-}
-
-.desktop-nav-links:hover {
-  color: #1c528a;
-}
-
-.desktop-nav.active {
-  
-} */
 
 .top-background-img {
   background-image: url(image/image_geometry_1.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 100px;
+  background-size: cover;
+  width: 111px;
   height: 70px;
 }
 
@@ -119,9 +90,10 @@ margin: 16px 0;
   position: fixed;
   right: 0;
   padding: 10px;
+  z-index: 999;
 }
 
-.menu-bar {
+.menu .menu-bar {
   display: block;
   width: 29px;
   height: 3px;
@@ -130,7 +102,7 @@ margin: 16px 0;
   background-color: #1a2236;
 }
 
-.menu.active .menu-bar:nth-child(2) {
+/* .menu.active .menu-bar:nth-child(2) {
   opacity: 0;
 }
 
@@ -140,7 +112,7 @@ margin: 16px 0;
 
 .menu.active .menu-bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
-}
+} */
 
 .portfolio-wrap {
   display: flex;

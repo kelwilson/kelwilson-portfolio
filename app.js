@@ -1,15 +1,15 @@
 const menu = document.querySelector(".menu");
-const desktopNav = document.querySelector(".desktop-nav");
+const mobileNav = document.querySelector(".mobile-nav");
 
 menu.addEventListener("click", () => {
   menu.classList.toggle("active");
-  desktopNav.classList.toggle("active");
+  mobileNav.classList.toggle("active");
 });
 
-document.querySelectorAll("menu-bar").forEach((n) =>
-  n.addEventListener("click", () => {
-    menu.classList.remove("active");
-    desktopNav.classList.remove("active");
-  })
-);
+// document.querySelectorAll("menu-bar").forEach((n) =>
+//   n.addEventListener("click", () => {
+//     menu.classList.remove("active");
+//     mobileNav.classList.remove("active");
+//   })
+// );
 
