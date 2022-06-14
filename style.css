@@ -60,6 +60,14 @@
   text-align: center;
 }
 
+.itemm {
+  transition: 0.7s ease;
+}
+
+.item:hover {
+  color: #1c528a;
+}
+
 .menu-links li > a {
   text-decoration: none;
   color: #000;
@@ -71,7 +79,7 @@
   background-size: contain;
   width: 100%;
   height: 100%;
-  margin-top: 180px;
+  margin-top: 70px;
 }
 
 .top-background-img {
@@ -87,7 +95,6 @@
   cursor: pointer;
   position: fixed;
   right: 0;
-  padding: 10px;
   z-index: 999;
 }
 
@@ -511,6 +518,7 @@
 }
 
 .get-btn {
+  margin-top: 20px;
   text-align: center;
 }
 

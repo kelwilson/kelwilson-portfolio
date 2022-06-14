@@ -6,7 +6,7 @@ menu.addEventListener('click', () => {
   mobileNav.classList.toggle('active');
 });
 
-document.querySelectorAll('menu-bar').forEach((n) => n.addEventListener('click', () => {
+document.querySelectorAll('.itemm').forEach((n) => n.addEventListener('click', () => {
   menu.classList.remove('active');
   mobileNav.classList.remove('active');
 }));
