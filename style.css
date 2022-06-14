@@ -17,7 +17,7 @@
   display: none;
 }
 
-/* .mobile-nav {
+.mobile-nav {
   display: none;
 }
 
@@ -46,7 +46,7 @@
 
 .menu-items {
   margin: 20px auto;
-} */
+}
 
 .menu-links {
   list-style: none;
