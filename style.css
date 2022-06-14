@@ -17,16 +17,14 @@
   display: none;
 }
 
-.mobile-nav {
-  display: none;
-}
-
 .mobile-nav.active {
   display: block;
+  left: 0;
 }
 
- .mobile-nav {
+.mobile-nav {
   position: fixed;
+  left: -100%;
   margin: 0;
   padding: -30px;
   width: 100%;
@@ -54,7 +52,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -64,7 +62,7 @@
 
 .menu-links li > a {
   text-decoration: none;
-  color: #000000;
+  color: #000;
 }
 
 .mobile-img {
@@ -193,7 +191,7 @@
   line-height: 100%;
   color: #1a2236;
   margin-bottom: 40px;
-  transition: font-size 3s background-color 3s;
+  transition: 0.3s;
 }
 
 .logo:hover {
