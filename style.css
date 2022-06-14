@@ -10,23 +10,108 @@
 
 .header-wrap {
   display: flex;
+  justify-content: space-between;
 }
 
 .desktop-nav {
   display: none;
 }
 
+.mobile-nav {
+  display: none;
+}
+
+.mobile-nav.active {
+  display: block;
+}
+
+ .mobile-nav {
+  position: fixed;
+  margin: 0;
+  padding: -30px;
+  width: 100%;
+  height: 80vh;
+  z-index: 888;
+  top: 0;
+}
+
+.mobile-nav-img {
+  background-image: url("./image/mobile-nav-1.png");
+  background-repeat: no-repeat;
+  background-size: 80% 80%;
+  width: 100%;
+  height: 100px;
+  z-index: 9999;
+}
+
+.menu-items {
+  margin: 20px auto;
+}
+
+.menu-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 300%;
+  text-align: center;
+}
+
+.menu-links li > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.mobile-img {
+  background-image: url("./image/mobile-img2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  margin-top: 180px;
+}
+
 .top-background-img {
   background-image: url(image/image_geometry_1.png);
   background-repeat: no-repeat;
-  width: 100%;
-  height: 74px;
+  background-size: cover;
+  width: 111px;
+  height: 70px;
 }
 
-.bx-menu {
-  font-size: xx-large;
-  padding: 20px;
-  color: #1a2236;
+.menu {
+  margin: 20px;
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+  padding: 10px;
+  z-index: 999;
+}
+
+.menu .menu-bar {
+  display: block;
+  width: 29px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: #1a2236;
+}
+
+.menu.active .menu-bar:nth-child(2) {
+  opacity: 0;
+}
+
+.menu.active .menu-bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.menu.active .menu-bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 .portfolio-wrap {
