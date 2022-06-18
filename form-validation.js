@@ -1,9 +1,9 @@
-// function checkemail() {
-//   const form = document.getElementById('contact-form');
-//   const email = form.elements.email.value;
-//   const re = /@/g;
-//   const lower = email.toLowerCase();
-//   // Check if email matches regex for email input
+function checkemail() {
+  const form = document.getElementById('contact-form');
+  const email = form.elements.email.value;
+  const re = /@/g;
+  const lower = email.toLowerCase();
+  // Check if email matches regex for email input
 //   if (re.test(String(email).toLowerCase()) === true) {
 //     if (lower === email) { // Check if email is lowercase
 //       form.submit(); // Submit if it's correct
