@@ -1,48 +1,48 @@
 const cardImages = './img/laptop';
 
 const card1 = {
-  title: "project name goes here",
-  technologies: ["HTML/CSS", "Ruby on Rails", "JavaScript"],
+  title: 'project name goes here',
+  technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam modi architecto reprehenderit officiis consequatur id molestias sint, maxime cumque ad excepturi atque voluptatem nihil delectus placeat recusandae natus exercitationem!",
-  link1: "https://github.com/kelwilson",
-  link2: "https://kelwilson.github.io/kelwilson-portfolio/",
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam modi architecto reprehenderit officiis consequatur id molestias sint, maxime cumque ad excepturi atque voluptatem nihil delectus placeat recusandae natus exercitationem!',
+  link1: 'https://github.com/kelwilson',
+  link2: 'https://kelwilson.github.io/kelwilson-portfolio/',
 };
 
 const card2 = {
-  title: "project name goes here",
-  technologies: ["HTML/CSS", "Ruby on Rails", "JavaScript"],
+  title: 'project name goes here',
+  technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam modi architecto reprehenderit officiis consequatur id molestias sint, maxime cumque ad excepturi atque voluptatem nihil delectus placeat recusandae natus exercitationem!",
-  link1: "https://github.com/kelwilson",
-  link2: "https://kelwilson.github.io/kelwilson-portfolio/",
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam modi architecto reprehenderit officiis consequatur id molestias sint, maxime cumque ad excepturi atque voluptatem nihil delectus placeat recusandae natus exercitationem!',
+  link1: 'https://github.com/kelwilson',
+  link2: 'https://kelwilson.github.io/kelwilson-portfolio/',
 };
 
 const card3 = {
-  title: "project name goes here",
-  technologies: ["HTML/CSS", "Ruby on Rails", "JavaScript"],
+  title: 'project name goes here',
+  technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam modi architecto reprehenderit officiis consequatur id molestias sint, maxime cumque ad excepturi atque voluptatem nihil delectus placeat recusandae natus exercitationem!",
-  link1: "https://github.com/kelwilson",
-  link2: "https://kelwilson.github.io/kelwilson-portfolio/",
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam modi architecto reprehenderit officiis consequatur id molestias sint, maxime cumque ad excepturi atque voluptatem nihil delectus placeat recusandae natus exercitationem!',
+  link1: 'https://github.com/kelwilson',
+  link2: 'https://kelwilson.github.io/kelwilson-portfolio/',
 };
 
 const card4 = {
-  title: "project name goes here",
-  technologies: ["HTML/CSS", "Ruby on Rails", "JavaScript"],
+  title: 'project name goes here',
+  technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam modi architecto reprehenderit officiis consequatur id molestias sint, maxime cumque ad excepturi atque voluptatem nihil delectus placeat recusandae natus exercitationem!",
-  link1: "https://github.com/kelwilson",
-  link2: "https://kelwilson.github.io/kelwilson-portfolio/",
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam modi architecto reprehenderit officiis consequatur id molestias sint, maxime cumque ad excepturi atque voluptatem nihil delectus placeat recusandae natus exercitationem!',
+  link1: 'https://github.com/kelwilson',
+  link2: 'https://kelwilson.github.io/kelwilson-portfolio/',
 };
 
 const card5 = {
-  title: "project name goes here",
-  technologies: ["HTML/CSS", "Ruby on Rails", "JavaScript"],
+  title: 'project name goes here',
+  technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam modi architecto reprehenderit officiis consequatur id molestias sint, maxime cumque ad excepturi atque voluptatem nihil delectus placeat recusandae natus exercitationem!",
-  link1: "https://github.com/kelwilson",
-  link2: "https://kelwilson.github.io/kelwilson-portfolio/",
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam modi architecto reprehenderit officiis consequatur id molestias sint, maxime cumque ad excepturi atque voluptatem nihil delectus placeat recusandae natus exercitationem!',
+  link1: 'https://github.com/kelwilson',
+  link2: 'https://kelwilson.github.io/kelwilson-portfolio/',
 };
 
 const projects = [card1, card2, card3, card4, card5]; // Array for cards contents
