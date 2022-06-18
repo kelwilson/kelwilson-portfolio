@@ -4,23 +4,20 @@
 
 > kelwilson-portfolio-project
 
-
 ## Built With
 
 - html/css, javascript
 - Frameworks
 - gitbash, github, vs code, figma
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com](https://kelwilson.github.io/kelwilson-portfolio/)
-
+[Live Demo Link 2](https://kelwilson.github.io/kelwilson-portfolio/)
 
 ## Getting Started
 
-**my first portfolio-project, use figma templates to create a personal portfolio, using html/ css, flex and grid for styling**
+**my first portfolio-project, use figmad templates design to create a personal portfolio replicating all styles and pictures as seen as that on the figma page, using html/ css, flex and grid for styling**
 **some form validation to the check for user input if they are valid or not before submitting.**
-
 
 ### To Access my project locally you can follow these steps
 
@@ -34,7 +31,6 @@
 
 -need to have basic knowledge of html/css, javascript and how to use a code editor and a basic knowledge of version control.
 
-
 ## Author
 
 👤 **kelwilson**
@@ -42,7 +38,6 @@
 - GitHub: [@githubhandle](https://github.com/kelwilson)
 - Twitter: [@twitterhandle](https://twitter.com/BesongMaris)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/kelly-besong-b33074237)
-
 
 ## 🤝 Contributing
 
