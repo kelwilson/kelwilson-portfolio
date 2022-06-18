@@ -14,10 +14,18 @@
 
 **my first portfolio-project, use figma templates to create a personal portfolio, using html/ css, flex and grid for styling**
 
+<<<<<<< HEAD
 ##**Live Demo**
 
 -https://kelwilson.github.io/kelwilson-portfolio/
 
+=======
+## Live Demo
+
+-https://kelwilson.github.io/kelwilson-portfolio/
+
+
+>>>>>>> cc7305a9e148495d86f43025869aa21c13c1dbe1
 ### To Access my project locally you can follow these steps
 
 1. Enter this url: <[https://github.com/kelwilson/kelwilson-portfolio](https://github.com/kelwilson/kelwilson-portfolio)> in your web browser.
