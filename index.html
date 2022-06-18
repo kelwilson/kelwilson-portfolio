@@ -1,405 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="kelwilson" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script/mobile-menu.js"></script>
+    <script src="script/modal.js"></script>
+    <script src="script/local-storage.js"></script>
+    <script src="script/form-validation.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
     <title>kelwilson-portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JTZXVMG1QH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JTZXVMG1QH');
+    </script>
   </head>
   <body>
-    <header>
-      <div class="header-wrap">
-        <div class="top-background-img"></div>
 
-        <div class="menu">
-          <span class="menu-bar"></span>
-          <span class="menu-bar"></span>
-          <span class="menu-bar"></span>
+    <nav class="menu-top" id="main-nav-bar">
+      <div class="shape-triangle" id="shape-1"></div>
+      <div class="shape-square" id="shape-2"></div>
+      <div onclick="menuToggle()" class="burger-container" id="burger-container">
+        <div class="menu-bar"></div>
+        <div class="menu-bar"><span class="red-line"></span></div>
+        <div class="menu-bar"></div>
+      </div>
+
+        <div onclick="menuToggle()" id="cross" class="cross invisible">
+          <i class="fas fa-times"></i>
         </div>
-      </div>
-      <!-- mobile-nav-start -->
-      <div class="mobile-nav">
-        <div class="mobile-nav-img"></div>
 
-        <nav class="menu-items">
-          <ul class="menu-links">
-            <li class="itemm"><a href="#Hello">Hello</a></li>
-            <li class="itemm"><a href="#Projects">Portfolio</a></li>
-            <li class="itemm"><a href="#About">About</a></li>
-            <li class="itemm"><a href="#Contact">Contact</a></li>
-          </ul> 
-         
-        </nav>
-
-        <div class="mobile-img"></div>
-      </div>
-
-      <!-- mobile-nav-end -->
-
-      <nav class="desktop-nav">
-        
-        <ul class="desktop-nav-links">
-          <li><a href="#">Hello</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="main-menu" id="menu-js">
+          <li><a onclick="menuToggle()" href="#main-page">Hello</a></li>
+          <li><a onclick="menuToggle()" href="#portfolio">Portfolio</a></li>
+          <li><a onclick="menuToggle()" href="#about-id">About</a></li>
+          <li><a onclick="menuToggle()" href="#contact-id">Contact</a></li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="portfolio-wrap">
-        <div class="portfolio-header">
-          <h1 id="Hello">
-            Kelly <br />
-            Besong
-          </h1>
+    </nav>
 
-          <p>
-            Hello! I am a software developer! I can help you build a product,
-            feature or website. Take a look of my works. If you like what you
-            see and have a project you need coded, don’t hesitate and contact
-            me.
-          </p>
+    <section class="container container-top" id="main-page">
+      <h1 class="title top-title">Kelly Besong</h1>
+      <p class="presentation top-presentation">Hello! I am a software developer! I can help you build a product, feature or website. Take a look of my works. If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
+      <button class="button-main top-button" type="submit"><span class="button-text">Start Collaboration</span></button>
+    </section>
 
-          <div class="start-btn">
-            <button type="button">Start collaboration</button>
-          </div>
+    <section class="shapes"></section>
+
+
+    <div id="portfolio">
+
+      <div class="desktop-grid">
+
+        <div class="ds-grid-first">
+        <h2 class="desktop-title">Projects</h2>
+        <div class="pois"></div>
+        <div class="pr-hidden">
+        <section class="project-content">
+          <h2 class="project-title"> project name goes here</h2>
+          <!-- <p class="project-description">Small description of the project</p> -->
+          <ul class="project-list">
+            <li class="langbox">HTML/CSS</li>
+            <li class="langbox">JavaScript</li>
+            <li class="langbox">Ruby On Rails</li>
+          </ul>
+          <button class="button-project" type="submit" onclick="modal(0)"><span class="button-text">See This Project<i class="fas fa-angle-right"></i></span></button>
+        </section></div>
         </div>
 
-        <div class="main-background-img"></div>
+        <div class="ds-grid-second">
+          <div class="ds-grid-second-first-container">
 
-        <div class="image-div">
-          <div class="point-img"></div>
-
-          <div class="desktop-background-img"></div>
-        </div>
-      </section>
-      <section class="projects-section">
-        <div class="projects-main">
-          <h2 id="Projects">Projects</h2>
-        </div>
-
-        <div class="project-img">
-          <img src="image/first.png" alt="person using laptop" />
-          <div class="hidden">
-            <h3>Project name goes here</h3>
-
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Ruby on Rails</li>
-              <li>JavaScript</li>
+          <div class="hidden-2">
+          <section class="project-content content-small">
+            <h2 class="project-title title-small"> project name goes here </h2>
+            <!-- <p class="project-description">Small description of the project</p> -->
+            <ul class="project-list">
+              <li class="langbox">HTML/CSS</li>
+              <li class="langbox">JavaScript</li>
+              <li class="langbox">Ruby On Rails</li>
             </ul>
-            <div class="project-info-btn">
-              <button type="button">
-                See this project &nbsp;
-                <i class="fas fa-arrow-right"></i>
-              </button>
-            </div>
-          </div>
-        </div>
+            <button onclick="modal(1)" class="button-project" type="submit"><span class="button-text">See This Project<i class="fas fa-angle-right"></i></span></button>
+          </section></div>
 
-        <div class="project-info">
-          <h3>Project name goes here</h3>
+          <div class="pois second-pois">
+          </div><div class="shape-2"></div>
 
-          <ul>
-            <li>HTML/CSS</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-          </ul>
-          <div class="project-info-btn">
-            <button type="button">
-              See this project &nbsp;
-              <i class="fas fa-arrow-right"></i>
-            </button>
-          </div>
-        </div>
-
-        <div class="project-img" id="second-container">
-          <img src="image/second.png" alt="Mac book" id="second-image" />
-        </div>
-
-        <div class="project-info">
-          <h3>Project name goes here</h3>
-
-          <ul>
-            <li>HTML/CSS</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-          </ul>
-          <div class="project-info-btn">
-            <button type="button">
-              See this project &nbsp;
-              <i class="fas fa-arrow-right"></i>
-            </button>
-          </div>
-        </div>
-
-        <div class="project-img" id="third-container">
-          <img src="image/third.png" alt="laptop and iphone" id="third-img" />
-        </div>
-
-        <div class="project-info">
-          <h3>Project name goes here</h3>
-
-          <ul>
-            <li>HTML/CSS</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-          </ul>
-          <div class="project-info-btn">
-            <button type="button">
-              See this project &nbsp;
-              <i class="fas fa-arrow-right"></i>
-            </button>
-          </div>
-        </div>
-        <div class="project-img" id="fourth-container">
-          <img
-            src="image/fouth.png"
-            alt="laptop with yellow background"
-            id="fourth-img"
-          />
-        </div>
-
-        <div class="project-info">
-          <h3>Project name goes here</h3>
-
-          <ul>
-            <li>HTML/CSS</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-          </ul>
-          <div class="project-info-btn">
-            <button type="button">
-              See this project &nbsp;
-              <i class="fas fa-arrow-right"></i>
-            </button>
-          </div>
-        </div>
-
-        <div class="project-img" id="fifth-container">
-          <img src="image/fifth.png" alt="laptop" id="fifth-img" />
-        </div>
-
-        <div class="project-info">
-          <h3>Project name goes here</h3>
-
-          <ul>
-            <li>HTML/CSS</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-          </ul>
-          <div class="project-info-btn">
-            <button type="button">
-              See this project &nbsp;
-              <i class="fas fa-arrow-right"></i>
-            </button>
-          </div>
-        </div>
-
-        <div class="project-img" id="sixth-container">
-          <img src="image/desktop2.png" alt="null" id="shape" />
-          <div id="shape-container">
-            <img src="image/six.png" alt="laptop and mobile" id="sixth-img" />
-            <div class="hidden-2">
-              <h3>Project name goes here</h3>
-              <ul>
-                <li>HTML/CSS</li>
-                <li>Ruby on Rails</li>
-                <li>JavaScript</li>
+          <div class="hidden-4">
+            <section class="project-content">
+              <h2 class="project-title"> Project name goes here </h2>
+              <p class="project-description">Small description of the project</p>
+              <ul class="project-list">
+                <li class="langbox">HTML/CSS</li>
+                <li class="langbox">JavaScript</li>
+                <li class="langbox">Ruby On Rails</li>
               </ul>
-              <div class="project-info-btn">
-                <button type="button">
-                  See this project &nbsp;
-                  <i class="fas fa-arrow-right"></i>
-                </button>
-              </div>
-            </div>
-          </div>
+              <button onclick="modal(2)" class="button-project" type="submit"><span class="button-text">See This Project<i class="fas fa-angle-right"></i></span></button>
+            </section></div>
+
+            <div class="square-red-2"></div>
+
         </div>
+        <div class="ds-grid-second-second-container">
 
-        <div class="project-info">
-          <h3>Project name goes here</h3>
-
-          <ul>
-            <li>HTML/CSS</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-          </ul>
-          <div class="project-info-btn">
-            <button type="button">
-              See this project &nbsp;
-              <i class="fas fa-arrow-right"></i>
-            </button>
-          </div>
-        </div>
-      </section>
-      <section class="about-section container">
-        <div class="about-div">
-          <h1 id="About">About</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ea eiusmod
-          </p>
-
-          <div class="get-btn">
-            <button type="button">
-              Get my CV &nbsp;
-              <i class="bx bx-download"></i>
-            </button>
-          </div>
-        </div>
-
-        <div class="about-container">
-          <div class="about-cards royal-blue">
-            <h4>Languages</h4>
-
-            <ul>
-              <li>&bull;JavaScript (ES5/ES6)</li>
-              <li>&bull;Ruby</li>
-              <li>&bull;HTML</li>
-              <li>&bull;CSS</li>
+        <div class="hidden-3">
+          <section class="project-content content-small">
+            <h2 class="project-title title-small"> project name goes here </h2>
+            <!-- <p class="project-description">Small description of the project</p> -->
+            <ul class="project-list">
+              <li class="langbox">HTML/CSS</li>
+              <li class="langbox">JavaScript</li>
+              <li class="langbox">Ruby On Rails</li>
             </ul>
-            <img src="image/language.png" alt="hash icon" />
-          </div>
+            <button onclick="modal(4)" class="button-project" type="submit"><span class="button-text">See This Project<i class="fas fa-angle-right"></i></span></button>
+          </section></div>
 
-          <div class="about-cards-2 salmon">
-            <h4>Frameworks</h4>
+          <div class="hidden-5">
+            <section class="project-content content-small">
+              <h2 class="project-title title-small">Project name goes here</h2>
+              <!-- <p class="project-description">Small description of the project</p> -->
+              <ul class="project-list">
+                <li class="langbox">HTML/CSS</li>
+                <li class="langbox">JavaScript</li>
+                <li class="langbox">Ruby On Rails</li>
+              </ul>
+              <button onclick="modal(3)" class="button-project" type="submit"><span class="button-text">See This Project<i class="fas fa-angle-right"></i></span></button>
+            </section></div>
 
-            <ul>
-              <li>&bull;Bootstrap</li>
-              <li>&bull;Ruby on rails</li>
-              <li>&bull;RSpec</li>
-              <li>&bull;Capibara</li>
-              <li>&bull;Selenium</li>
+            <div class="square-3"></div>
+
+
+      </div></div></div>
+
+
+      <div class="grid-container proj-grid">
+      <div class="title-project">Projects</div>
+      <ul class="grid-projects grid-one">
+
+
+        <li class="project first-pr">
+          <img src="img/laptop.png" class="project-image" alt="Project picture">
+          <section class="project-content">
+            <h2 class="project-title"> project name goes here </h2>
+            <!-- <p class="project-description">Small description of the project</p> -->
+            <ul class="project-list">
+              <li class="langbox">HTML/CSS</li>
+              <li class="langbox">JavaScript</li>
+              <li class="langbox">Webpack</li>
             </ul>
-            <img src="image/ic_framework.png" alt="null" />
-          </div>
+            <button onclick="modal(0)" class="button-project" type="submit"><span class="button-text">See This Project<i class="fas fa-angle-right"></i></span></button>
+          </section>
+        </li>
 
-          <div class="about-cards-3 yellow">
-            <h4>Skills</h4>
-
-            <ul>
-              <li>&bull;Codekit</li>
-              <li>&bull;Codepen</li>
-              <li>&bull;GitHub</li>
-              <li>&bull;GitLAb</li>
-              <li>&bull;Terminal</li>
+        <li class="project second-pr">
+          <img src="img/laptop2.png" class="project-image" alt="Project picture">
+          <section class="project-content">
+            <h2 class="project-title"> project name goes here </h2>
+            <!-- <p class="project-description">Small description of the project</p> -->
+            <ul class="project-list">
+              <li class="langbox">HTML/CSS</li>
+              <li class="langbox">JavaScript</li>
+              <li class="langbox">Ruby On Rails</li>
             </ul>
-            <img src="image/ic_skills.png" alt="null" />
-          </div>
-        </div>
+            <button onclick="modal(1)" class="button-project" type="submit"><span class="button-text">See This Project<i class="fas fa-angle-right"></i></span></button>
+          </section>
+        </li>
+
+        <li class="project third-pr">
+          <img src="img/laptop3.png" class="project-image" alt="Project picture">
+          <section class="project-content">
+            <h2 class="project-title"> Project name goes here </h2>
+            <!-- <p class="project-description">Small description of the project</p> -->
+            <ul class="project-list">
+              <li class="langbox">HTML/CSS</li>
+              <li class="langbox">JavaScript</li>
+              <li class="langbox">Ruby On Rails</li>
+            </ul>
+            <button onclick="modal(2)" class="button-project" type="submit"><span class="button-text">See This Project<i class="fas fa-angle-right"></i></span></button>
+          </section>
+        </li>
+
+        <li class="project fourth-pr">
+          <img src="img/laptop4.png" class="project-image" alt="Project picture">
+          <section class="project-content">
+            <h2 class="project-title"> Project name goes here </h2>
+            <!-- <p class="project-description">Small description of the project</p> -->
+            <ul class="project-list">
+              <li class="langbox">HTML/CSS</li>
+              <li class="langbox">JavaScript</li>
+              <li class="langbox">Ruby On Rails</li>
+            </ul>
+            <button onclick="modal(3)" class="button-project" type="submit"><span class="button-text">See This Project<i class="fas fa-angle-right"></i></span></button>
+          </section>
+        </li>
+
+        <li class="project fifth-pr">
+          <img src="img/laptop5.png" class="project-image" alt="Project picture">
+          <section class="project-content">
+            <h2 class="project-title"> project name goes here</h2>
+            <!-- <p class="project-description">Small description of the project</p> -->
+
+            <ul class="project-list">
+              <li class="langbox">HTML/CSS</li>
+              <li class="langbox">JavaScript</li>
+              <li class="langbox">Ruby On Rails</li>
+            </ul>
+            <button onclick="modal(4)" class="button-project" type="submit"><span class="button-text">See This Project<i class="fas fa-angle-right"></i></span></button>
+          </section>
+        </li>
+
+      </ul>
+      </div>
+    </div>
+
+    <div id="about-id" class="container-about-section">
+    <div class="container container-middle">
+      <section class="about-section">
+        <h1 class="title">About</h1>
+        <p class="presentation">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
+        <button class="button-main" type="submit"><span class="button-text">Get my CV<i class="fas fa-download"></i></span></button>
       </section>
+    </div>
 
-      <section class="form-section">
-        <div class="top-background-img"></div>
-        <div class="form-container1">
-          <div class="form-section-div">
-            <h1 id="Contact">Get started</h1>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna.
-            </p>
-          </div>
-
-          <form
-            class="portfolio-form"
-            action="https://formspree.io/f/mqkngogp"
-            method="POST"
-          >
-            <div class="inputs">
-              <div class="form-container">
-                <label for="Username"></label>
-                <input
-                  class="Username"
-                  type="text"
-                  id="Username"
-                  name="Username"
-                  placeholder="Your name"
-                  maxlength="30"
-                  required
-                />
-              </div>
-
-              <div class="form-container">
-                <label for="email"></label>
-                <input
-                  class="email"
-                  type="email"
-                  name=" email"
-                  id="email"
-                  placeholder="Your email"
-                  required
-                />
-              </div>
-            </div>
-
-            <div class="form-container">
-              <label for="message"></label>
-              <textarea
-                class="message"
-                name="message"
-                id="message"
-                rows="10"
-                maxlength="500"
-                placeholder="Enter your message here..."
-                required
-              ></textarea>
-            </div>
-
-            <div class="start-btn">
-              <button type="submit">Start collaboration</button>
-            </div>
-          </form>
-        </div>
-        <div class="background-img-bottom"></div>
-      </section>
-    </main>
-    <footer>
-      <nav class="footer-nav container">
-        <a href="#" class="resume"
-          >Get my Resume &nbsp;<i class="fas fa-external-link-alt"></i
-        ></a>
-
-        <ul>
-          <li>
-            <a href="#"><i class="fab fa-stack-overflow"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-github"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-medium-m"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-angellist"></i></a>
-          </li>
+    <div class="grid-container languages-grid">
+    <section class="grid-projects lang-squares">
+      <div class="bottom-square blue-lang-square">
+        <h3 class="square-text">Languages</h3>
+        <ul class="square-list">
+          <li>JavaScript (ES5/ES6)</li>
+          <li>Ruby</li>
+          <li>HTML</li>
+          <li>CSS</li>
         </ul>
-      </nav>
+      </div>
+
+      <div class="bottom-square red-lang-square">
+        <h3 class="square-text">Frameworks</h3>
+        <ul class="square-list">
+          <li>Bootstrap</li>
+          <li>Ruby On Rails</li>
+          <li>RSpec</li>
+          <li>Capibara</li>
+          <li>Selenium</li>
+        </ul>
+      </div>
+
+      <div class="bottom-square yellow-lang-square">
+        <h3 class="square-text">Skills</h3>
+        <ul class="square-list">
+          <li>Codekit</li>
+          <li>Codepen</li>
+          <li>GitHub</li>
+          <li>GitLab</li>
+          <li>Terminal</li>
+        </ul>
+      </div>
+      </section>
+    </div>
+    </div>
+
+    <div class="shape-triangle"></div>
+    <div class="shape-square"></div>
+    <section id="contact-id" class="container container-bottom">
+      <h1 class="title footer-title">Get Started</h1>
+      <p class="presentation footer-presentation">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <form action="https://formspree.io/f/xqkwdpqy" id="contact-form" method="POST">
+        <input onkeypress="keypress()" name="name" maxlength="30" type="text" class="input-form name-form" required placeholder="Your name">
+        <input onkeypress="keypress()" name="email" type="email" class="input-form email-form" required placeholder="Your email">
+        <textarea onkeypress="keypress()" name="message" maxlength="500" class="text-form text-form2" required placeholder="Enter your message here.."></textarea>
+        <button onclick="checkemail()" id="contact-submit-button" class="button-main" type="submit"><span class="button-text">Start Collaboration</span></button>
+      </form>
+    </section>
+
+    <footer>
+      <a href="#" class="button-text text-footer-button">Get my CV<i class="fas fa-download"></i></a>
+      <ul>
+        <li class="fab fa-stack-overflow"></li>
+        <li class="fab fa-github"></li>
+        <li class="fab fa-twitter"></li>
+        <li class="fab fa-linkedin"></li>
+        <li class="fab fa-facebook"></li>
+        <li class="fab fa-twitch"></li>
+      </ul>
     </footer>
-    <script src="app.js"></script>
+
+<!----------------------------------------------------------------->
+
+<article id="card" class="card invisible">
+  <div class="card-top">
+    <h3 id="card-title">See Project header</h3>
+    <i id="card-cross" class="fas fa-times-circle" onclick="toggle()"></i>
+  </div>
+  <ul id="card-list" class="card-list">
+  </ul>
+  <img src="./img/laptop1-big.png" class="card-image" alt="Someone's MacBook">
+  <p id="card-description">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam modi
+    architecto reprehenderit officiis consequatur id molestias sint, maxime
+    cumque ad excepturi atque voluptatem nihil delectus placeat recusandae
+    natus exercitationem!
+  </p>
+  <div class="button-container">
+    <button type="button" id="card-button-live" class="card-button">
+      See live
+      <i class="fas fa-external-link-alt"></i>
+    </button>
+    <button type="button" id="card-button-source" class="card-button">
+      See source
+      <i class="fab fa-github"></i>
+  </button>
+  </div>
+
+</article>
+
+<!----------------------------------------------------------------->
+
   </body>
 </html>
