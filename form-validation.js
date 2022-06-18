@@ -4,9 +4,9 @@ function checkemail() {
   const re = /@/g;
   const lower = email.toLowerCase();
   // Check if email matches regex for email input
-//   if (re.test(String(email).toLowerCase()) === true) {
-//     if (lower === email) { // Check if email is lowercase
-//       form.submit(); // Submit if it's correct
+  if (re.test(String(email).toLowerCase()) === true) {
+    if (lower === email) { // Check if email is lowercase
+      form.submit(); // Submit if it's correct
 //     } else {
 //       form.addEventListener('submit', (event) => {
 //         event.preventDefault(); // Prevent form submission
