@@ -23,8 +23,8 @@ const card3 = {
   technologies: ["HTML/CSS", "Ruby on Rails", "JavaScript"],
   description:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam modi architecto reprehenderit officiis consequatur id molestias sint, maxime cumque ad excepturi atque voluptatem nihil delectus placeat recusandae natus exercitationem!",
-  // link1: "https://kelwilson.github.io/kelwilson-portfolio/",
-  // link2: "https://github.com/kelwilson",
+  link1: "https://kelwilson.github.io/kelwilson-portfolio/",
+  link2: "https://github.com/kelwilson",
 };
 
 const card4 = {
@@ -32,8 +32,8 @@ const card4 = {
   technologies: ["HTML/CSS", "Ruby on Rails", "JavaScript"],
   description:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam modi architecto reprehenderit officiis consequatur id molestias sint, maxime cumque ad excepturi atque voluptatem nihil delectus placeat recusandae natus exercitationem!",
-  // link1: "https://kelwilson.github.io/kelwilson-portfolio/",
-  // link2: "https://github.com/kelwilson",
+  link1: "https://kelwilson.github.io/kelwilson-portfolio/",
+  link2: "https://github.com/kelwilson",
 };
 
 const card5 = {
@@ -41,8 +41,8 @@ const card5 = {
   technologies: ["HTML/CSS", "Ruby on Rails", "JavaScript"],
   description:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam modi architecto reprehenderit officiis consequatur id molestias sint, maxime cumque ad excepturi atque voluptatem nihil delectus placeat recusandae natus exercitationem!",
-  // link1: "https://kelwilson.github.io/kelwilson-portfolio/",
-  // link2: "https://github.com/kelwilson",
+  link1: "https://kelwilson.github.io/kelwilson-portfolio/",
+  link2: "https://github.com/kelwilson",
 };
 
 const projects = [card1, card2, card3, card4, card5]; // Array for cards contents
