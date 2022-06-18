@@ -11,9 +11,11 @@
 - Frameworks
 - gitbash, github, vs code, figma
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com](https://kelwilson.github.io/kelwilson-portfolio/)
+[Live Demo Link 1](https://livedemo.com)
+
+[Live Demo Link 2](https://kelwilson.github.io/kelwilson-portfolio/)
 
 
 ## Getting Started
