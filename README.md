@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link 2](https://kelwilson.github.io/kelwilson-portfolio/)
+[Live Demo](https://kelwilson.github.io/kelwilson-portfolio/)
 
 ## Getting Started
 
