@@ -1,12 +1,12 @@
 const cardImages = './img/laptop';
 
 const card1 = {
-  title: 'project name goes here',
-  technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
+  title: 'To-do List App',
+  technologies: ['HTML/CSS', 'JavaScript'],
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam modi architecto reprehenderit officiis consequatur id molestias sint, maxime cumque ad excepturi atque voluptatem nihil delectus placeat recusandae natus exercitationem!',
-  link1: 'https://github.com/kelwilson',
-  link2: 'https://kelwilson.github.io/kelwilson-portfolio/',
+    ' In this project, I built a simple To-do-List-App which adds and remove tasks using HTML/CSS to build the app and JavaScript to add functionalities to the app by using webpack dev server to display the app on a web server.',
+  link1: 'https://github.com/kelwilson/To-do-List',
+  link2: 'https://kelwilson.github.io/To-do-List/dist/',
 };
 
 const card2 = {
